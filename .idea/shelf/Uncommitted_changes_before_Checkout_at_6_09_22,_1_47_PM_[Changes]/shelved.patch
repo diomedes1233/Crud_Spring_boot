@@ -1,0 +1,58 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,14 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="version 3 del proyecto">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empleado.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/MovimientoDinero.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empresa.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/MovimientoDinero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/MovimientoDinero.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -154,7 +146,17 @@
+       <workItem from="1662058038569" duration="5316000" />
+       <workItem from="1662116956837" duration="5809000" />
+       <workItem from="1662137027852" duration="4922000" />
+-      <workItem from="1662154551611" duration="759000" />
++      <workItem from="1662154551611" duration="874000" />
++      <workItem from="1662175508209" duration="97000" />
++      <workItem from="1662293810647" duration="1701000" />
++      <workItem from="1662301624142" duration="257000" />
++      <workItem from="1662302457217" duration="18000" />
++      <workItem from="1662307056055" duration="985000" />
++      <workItem from="1662343399293" duration="140000" />
++      <workItem from="1662344325917" duration="738000" />
++      <workItem from="1662345821311" duration="16000" />
++      <workItem from="1662419817771" duration="6598000" />
++      <workItem from="1662428091315" duration="32000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <created>1661057454546</created>
+@@ -240,7 +242,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1662072048012</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="version 3 del proyecto">
++      <created>1662160518400</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1662160518400</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

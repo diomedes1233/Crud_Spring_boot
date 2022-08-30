@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Ciclo3" target="17" />
+      <module name="Ciclo3" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

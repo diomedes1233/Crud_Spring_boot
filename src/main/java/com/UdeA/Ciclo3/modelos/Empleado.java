@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name="Empleado")
 public class Empleado {
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private int id;
     private String nombre;
     private String correo;
@@ -14,35 +14,15 @@ public class Empleado {
     @JoinColumn(name = "empresa_id")
     private Empresa empresa;
     private String rol;
-    private String password;
-    private Boolean estado;
 
     public Empleado() {
     }
 
-    public Empleado(String nombre, String correo, Empresa empresa, String rol, String password, Boolean estado) {
+    public Empleado(String nombre, String correo, Empresa empresa, String rol) {
         this.nombre = nombre;
         this.correo = correo;
         this.empresa = empresa;
         this.rol = rol;
-        this.password= password;
-        this.estado=estado;
-    }
-
-    public Boolean getEstado() {
-        return estado;
-    }
-
-    public void setEstado(Boolean estado) {
-        this.estado = estado;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public int getId() {

@@ -1,15 +1,12 @@
 package com.UdeA.Ciclo3.modelos;
 
-import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @Table(name="Movimientos")
 public class MovimientoDinero {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private long monto;
     private String concepto;
@@ -17,17 +14,13 @@ public class MovimientoDinero {
     @JoinColumn(name = "empleado_id")
     private Empleado usuario;
 
-    @DateTimeFormat(pattern="yyyy-MM-dd")
-    private Date fecha;
-
     public MovimientoDinero() {
     }
 
-    public MovimientoDinero(long monto, String concepto, Empleado empleado, Date fecha) {
+    public MovimientoDinero(long monto, String concepto, Empleado empleado) {
         this.monto = monto;
         this.concepto = concepto;
         this.usuario = empleado;
-        this.fecha=fecha;
     }
 
     public int getId() {
@@ -60,13 +53,5 @@ public class MovimientoDinero {
 
     public void setUsuario(Empleado empleado) {
         this.usuario = empleado;
-    }
-
-    public Date getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
     }
 }

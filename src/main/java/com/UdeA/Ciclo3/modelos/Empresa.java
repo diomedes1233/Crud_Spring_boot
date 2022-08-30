@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name="Empresa")
 public class Empresa {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String nombre;
     private String direccion;
@@ -63,4 +63,5 @@ public class Empresa {
         this.NIT = NIT;
     }
 }
+
 

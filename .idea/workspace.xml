@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="se creo el crud crear Empresa">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/Ciclo3Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/Ciclo3Application.class" afterDir="false" />
+    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="se canbio el path y el puerto a 8081">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/service/EmpresaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/service/EmpresaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/service/EmpresaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/service/EmpresaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/verEmpresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verEmpresas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,17 +24,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Edwin_Rest" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -68,7 +67,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/edwinbernal/Profe_Nataly/CrudCiclo3Nataly/src/main/resources/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/edwinbernal/Ciclo3Udea2022_Nataly&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,11 +82,6 @@
     ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="Ciclo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Ciclo3" />
@@ -136,15 +130,6 @@
       <workItem from="1661827084893" duration="1312000" />
       <workItem from="1661829204405" duration="128000" />
       <workItem from="1661829403927" duration="409000" />
-      <workItem from="1662503185590" duration="735000" />
-      <workItem from="1662514535737" duration="1349000" />
-      <workItem from="1662566885988" duration="12803000" />
-      <workItem from="1662741495123" duration="4017000" />
-      <workItem from="1662859032833" duration="279000" />
-      <workItem from="1663036336489" duration="46000" />
-      <workItem from="1663096967974" duration="29000" />
-      <workItem from="1663097116432" duration="1342000" />
-      <workItem from="1663153551234" duration="3941000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661057454546</created>
@@ -223,21 +208,7 @@
       <option name="project" value="LOCAL" />
       <updated>1661455473059</updated>
     </task>
-    <task id="LOCAL-00012" summary="se creo el crud crear Empresa">
-      <created>1662759640843</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1662759640844</updated>
-    </task>
-    <task id="LOCAL-00013" summary="se creo el crud crear Empresa">
-      <created>1663163235768</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1663163235768</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,9 +244,6 @@
     <MESSAGE value="template y servicios para crear una nueva empresa" />
     <MESSAGE value="se creo editar empresa en html y eliminar empresa" />
     <MESSAGE value="se canbio el path y el puerto a 8081" />
-    <MESSAGE value="version 4 del proyecto" />
-    <MESSAGE value="BASIC JDBC AUTHENTICATION" />
-    <MESSAGE value="se creo el crud crear Empresa" />
-    <option name="LAST_COMMIT_MESSAGE" value="se creo el crud crear Empresa" />
+    <option name="LAST_COMMIT_MESSAGE" value="se canbio el path y el puerto a 8081" />
   </component>
 </project>

@@ -1,0 +1,26 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,16 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="version 3 del proyecto">
++    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="se creo el crud crear Empresa">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empleado.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/Empresa.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/modelos/MovimientoDinero.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empresa.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/MovimientoDinero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/MovimientoDinero.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />

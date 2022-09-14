@@ -1,0 +1,66 @@
+Index: src/main/resources/templates/verEmpresas.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/verEmpresas.html b/src/main/resources/templates/verEmpresas.html
+--- a/src/main/resources/templates/verEmpresas.html	
++++ b/src/main/resources/templates/verEmpresas.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: src/main/resources/templates/agregarEmpresa.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/agregarEmpresa.html b/src/main/resources/templates/agregarEmpresa.html
+--- a/src/main/resources/templates/agregarEmpresa.html	
++++ b/src/main/resources/templates/agregarEmpresa.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: src/main/resources/templates/editarEmpresa.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/editarEmpresa.html b/src/main/resources/templates/editarEmpresa.html
+--- a/src/main/resources/templates/editarEmpresa.html	
++++ b/src/main/resources/templates/editarEmpresa.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-config:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.2/spring-security-config-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.2/spring-security-config-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.2/spring-security-config-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

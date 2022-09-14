@@ -1,0 +1,754 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,7 +5,25 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="se creo el crud crear Empresa">
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/SecurityConfig.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ciclo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ciclo3.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agregarEmpleado.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agregarEmpleado.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agregarEmpresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agregarEmpresa.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agregarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agregarMovimiento.html" afterDir="false" />
+@@ -14,7 +32,17 @@
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editarMovimiento.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verEmpleados.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verEmpleados.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verEmpresas.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verMovimientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verMovimientos.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/agregarEmpleado.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/agregarEmpleado.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/agregarEmpresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/agregarEmpresa.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/agregarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/agregarMovimiento.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/editarEmpleado.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editarEmpleado.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/editarEmpresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editarEmpresa.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/editarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editarMovimiento.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/verEmpleados.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verEmpleados.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/verEmpresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verEmpresas.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/templates/verMovimientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verMovimientos.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -148,6 +176,29 @@
+       <workItem from="1662566885988" duration="12803000" />
+       <workItem from="1662741495123" duration="4017000" />
+       <workItem from="1662859032833" duration="279000" />
++      <workItem from="1662950994253" duration="1991000" />
++      <workItem from="1663010987310" duration="302000" />
++      <workItem from="1663011913112" duration="122000" />
++      <workItem from="1663012152651" duration="70000" />
++      <workItem from="1663012303370" duration="45000" />
++      <workItem from="1663012513272" duration="34000" />
++      <workItem from="1663012655157" duration="73000" />
++      <workItem from="1663012948122" duration="141000" />
++      <workItem from="1663013225255" duration="35000" />
++      <workItem from="1663013490523" duration="93000" />
++      <workItem from="1663014308514" duration="95000" />
++      <workItem from="1663016053138" duration="71000" />
++      <workItem from="1663016217117" duration="178000" />
++      <workItem from="1663016474880" duration="73000" />
++      <workItem from="1663016955715" duration="124000" />
++      <workItem from="1663017329270" duration="288000" />
++      <workItem from="1663017891981" duration="117000" />
++      <workItem from="1663018068116" duration="37000" />
++      <workItem from="1663018251550" duration="44000" />
++      <workItem from="1663018385463" duration="27000" />
++      <workItem from="1663019421817" duration="27000" />
++      <workItem from="1663019525468" duration="24000" />
++      <workItem from="1663019917721" duration="114000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <created>1661057454546</created>
+Index: target/classes/templates/verEmpresas.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/templates/verEmpresas.html b/target/classes/templates/verEmpresas.html
+--- a/target/classes/templates/verEmpresas.html	
++++ b/target/classes/templates/verEmpresas.html	
+@@ -1,7 +1,6 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Lista de Empresas - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+@@ -9,6 +8,7 @@
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
++    <title>Lista de Empresas - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: target/classes/templates/agregarEmpresa.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/templates/agregarEmpresa.html b/target/classes/templates/agregarEmpresa.html
+--- a/target/classes/templates/agregarEmpresa.html	
++++ b/target/classes/templates/agregarEmpresa.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Agregar nueva Empresa - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Agregar nueva Empresa - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_2.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-oauth2-client:2.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-oauth2-client/2.7.2/spring-boot-starter-oauth2-client-2.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-oauth2-client/2.7.2/spring-boot-starter-oauth2-client-2.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-oauth2-client/2.7.2/spring-boot-starter-oauth2-client-2.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_nimbusds_content_type_2_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml b/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.nimbusds:content-type:2.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/content-type/2.2/content-type-2.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/content-type/2.2/content-type-2.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/content-type/2.2/content-type-2.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/target/classes/application.properties b/target/classes/application.properties
+--- a/target/classes/application.properties	
++++ b/target/classes/application.properties	
+@@ -3,7 +3,7 @@
+ spring.datasource.password=1234509876
+ spring.jpa.hibernate.ddl-auto=update
+ 
+-server.port=8081
++#server.port=8081
+ #server.servlet.context-path= /app
+ 
+ #spring.datasource.url=jdbc:postgresql://db.jtqdmwfqsjzyjizjphwd.supabase.co:5432/postgres?user=postgres&password=Dk@jE4BUWie7AL9
+Index: src/main/resources/application.yml
+===================================================================
+diff --git a/src/main/resources/application.yml b/src/main/resources/application.yml
+new file mode 100644
+--- /dev/null	
++++ b/src/main/resources/application.yml	
+@@ -0,0 +1,17 @@
++# src/main/resources/application.yml
++spring:
++  security:
++    oauth2:
++      client:
++        registration:
++          auth0:
++            client-id: jG88CCnc6qI8jmNAgDJGWmgsZi1ar1cO
++            client-secret: fRnLb1ZmUjASajND4FT--K27Q3PFumgKdPd1SC_TdVyvcdWM0bc3SLw-Ht9h1A3x
++            scope:
++              - openid
++              - profile
++              - email
++        provider:
++          auth0:
++            # trailing slash is important!
++            issuer-uri: https://dev-959bwuvy.us.auth0.com/
+\ No newline at end of file
+Index: src/main/java/com/UdeA/Ciclo3/SecurityConfig.java
+===================================================================
+diff --git a/src/main/java/com/UdeA/Ciclo3/SecurityConfig.java b/src/main/java/com/UdeA/Ciclo3/SecurityConfig.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/UdeA/Ciclo3/SecurityConfig.java	
+@@ -0,0 +1,16 @@
++package com.UdeA.Ciclo3;
++
++import org.springframework.context.annotation.Bean;
++import org.springframework.security.config.annotation.web.builders.HttpSecurity;
++import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
++import org.springframework.security.web.SecurityFilterChain;
++
++@EnableWebSecurity
++public class SecurityConfig {
++
++    @Bean
++    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
++        return http.oauth2Login()
++                .and().build();
++    }
++}
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml b/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.nimbusds:oauth2-oidc-sdk:9.35">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/oauth2-oidc-sdk/9.35/oauth2-oidc-sdk-9.35.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/oauth2-oidc-sdk/9.35/oauth2-oidc-sdk-9.35-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/oauth2-oidc-sdk/9.35/oauth2-oidc-sdk-9.35-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: Ciclo3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ciclo3.iml b/Ciclo3.iml
+--- a/Ciclo3.iml	
++++ b/Ciclo3.iml	
+@@ -61,7 +61,6 @@
+     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.22" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.22" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.22" level="project" />
+-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.22" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.7.2" level="project" />
+     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.7.2" level="project" />
+@@ -102,9 +101,9 @@
+     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.7.2" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.7.2" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.7.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.4.8" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.4.8" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.1" level="project" />
++    <orderEntry type="library" name="Maven: net.minidev:json-smart:2.4.8" level="project" />
++    <orderEntry type="library" name="Maven: net.minidev:accessors-smart:2.4.8" level="project" />
++    <orderEntry type="library" name="Maven: org.ow2.asm:asm:9.1" level="project" />
+     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
+     <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.22.0" level="project" />
+@@ -127,5 +126,20 @@
+     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.22" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.22" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.9.0" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-oauth2-client:2.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-client:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-core:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: com.nimbusds:oauth2-oidc-sdk:9.35" level="project" />
++    <orderEntry type="library" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
++    <orderEntry type="library" name="Maven: com.nimbusds:content-type:2.2" level="project" />
++    <orderEntry type="library" name="Maven: com.nimbusds:lang-tag:1.6" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-jose:5.7.2" level="project" />
++    <orderEntry type="library" name="Maven: com.nimbusds:nimbus-jose-jwt:9.22" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml b/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml b/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.nimbusds:nimbus-jose-jwt:9.22">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/9.22/nimbus-jose-jwt-9.22.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/9.22/nimbus-jose-jwt-9.22-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/9.22/nimbus-jose-jwt-9.22-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-web:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.2/spring-security-web-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.2/spring-security-web-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.2/spring-security-web-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: target/classes/templates/editarEmpresa.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/templates/editarEmpresa.html b/target/classes/templates/editarEmpresa.html
+--- a/target/classes/templates/editarEmpresa.html	
++++ b/target/classes/templates/editarEmpresa.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Editar Empresa - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Editar Empresa - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: .idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml b/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -46,6 +46,16 @@
+ 			<artifactId>spring-boot-starter-test</artifactId>
+ 			<scope>test</scope>
+ 		</dependency>
++
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-oauth2-client</artifactId>
++		</dependency>
++
++		<dependency>
++			<groupId>org.thymeleaf.extras</groupId>
++			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
++		</dependency>
+ 	</dependencies>
+ 
+ 	<build>
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-oauth2-core:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-core/5.7.2/spring-security-oauth2-core-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-core/5.7.2/spring-security-oauth2-core-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-core/5.7.2/spring-security-oauth2-core-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-oauth2-jose:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-jose/5.7.2/spring-security-oauth2-jose-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-jose/5.7.2/spring-security-oauth2-jose-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-jose/5.7.2/spring-security-oauth2-jose-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml b/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.nimbusds:lang-tag:1.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/lang-tag/1.6/lang-tag-1.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/lang-tag/1.6/lang-tag-1.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/nimbusds/lang-tag/1.6/lang-tag-1.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-core:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.2/spring-security-core-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.2/spring-security-core-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.2/spring-security-core-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-crypto:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.7.2/spring-security-crypto-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.7.2/spring-security-crypto-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.7.2/spring-security-crypto-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_2.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_2.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_2.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_2.xml	
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-oauth2-client:5.7.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-client/5.7.2/spring-security-oauth2-client-5.7.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-client/5.7.2/spring-security-oauth2-client-5.7.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-client/5.7.2/spring-security-oauth2-client-5.7.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: target/classes/templates/editarMovimiento.html
+===================================================================
+diff --git a/target/classes/templates/editarMovimiento.html b/target/classes/templates/editarMovimiento.html
+--- a/target/classes/templates/editarMovimiento.html	
++++ b/target/classes/templates/editarMovimiento.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Editar datos de Movimiento - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Editar datos de Movimiento - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: target/classes/templates/verMovimientos.html
+===================================================================
+diff --git a/target/classes/templates/verMovimientos.html b/target/classes/templates/verMovimientos.html
+--- a/target/classes/templates/verMovimientos.html	
++++ b/target/classes/templates/verMovimientos.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <title>Lista de Movimientos - Ciclo3</title>
+     <meta charset="utf-8">
+Index: src/main/resources/templates/agregarMovimiento.html
+===================================================================
+diff --git a/src/main/resources/templates/agregarMovimiento.html b/src/main/resources/templates/agregarMovimiento.html
+--- a/src/main/resources/templates/agregarMovimiento.html	
++++ b/src/main/resources/templates/agregarMovimiento.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: target/classes/templates/agregarMovimiento.html
+===================================================================
+diff --git a/target/classes/templates/agregarMovimiento.html b/target/classes/templates/agregarMovimiento.html
+--- a/target/classes/templates/agregarMovimiento.html	
++++ b/target/classes/templates/agregarMovimiento.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Agregar nuevo Movimiento - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Agregar nuevo Movimiento - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: src/main/resources/templates/editarMovimiento.html
+===================================================================
+diff --git a/src/main/resources/templates/editarMovimiento.html b/src/main/resources/templates/editarMovimiento.html
+--- a/src/main/resources/templates/editarMovimiento.html	
++++ b/src/main/resources/templates/editarMovimiento.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: src/main/resources/templates/editarEmpleado.html
+===================================================================
+diff --git a/src/main/resources/templates/editarEmpleado.html b/src/main/resources/templates/editarEmpleado.html
+--- a/src/main/resources/templates/editarEmpleado.html	
++++ b/src/main/resources/templates/editarEmpleado.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: target/classes/templates/agregarEmpleado.html
+===================================================================
+diff --git a/target/classes/templates/agregarEmpleado.html b/target/classes/templates/agregarEmpleado.html
+--- a/target/classes/templates/agregarEmpleado.html	
++++ b/target/classes/templates/agregarEmpleado.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Agregar nuevo Empleado - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Agregar nuevo Empleado - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: target/classes/templates/verEmpleados.html
+===================================================================
+diff --git a/target/classes/templates/verEmpleados.html b/target/classes/templates/verEmpleados.html
+--- a/target/classes/templates/verEmpleados.html	
++++ b/target/classes/templates/verEmpleados.html	
+@@ -1,7 +1,6 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Lista de Empleados - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+@@ -9,6 +8,7 @@
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
++    <title>Lista de Empleados - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: target/classes/templates/editarEmpleado.html
+===================================================================
+diff --git a/target/classes/templates/editarEmpleado.html b/target/classes/templates/editarEmpleado.html
+--- a/target/classes/templates/editarEmpleado.html	
++++ b/target/classes/templates/editarEmpleado.html	
+@@ -1,12 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+-    <title>Editar Empleado - Ciclo3</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
++    <title>Editar Empleado - Ciclo3</title>
+     <style>
+         a{
+             color:white;
+Index: src/main/resources/templates/agregarEmpleado.html
+===================================================================
+diff --git a/src/main/resources/templates/agregarEmpleado.html b/src/main/resources/templates/agregarEmpleado.html
+--- a/src/main/resources/templates/agregarEmpleado.html	
++++ b/src/main/resources/templates/agregarEmpleado.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: src/main/resources/templates/verEmpleados.html
+===================================================================
+diff --git a/src/main/resources/templates/verEmpleados.html b/src/main/resources/templates/verEmpleados.html
+--- a/src/main/resources/templates/verEmpleados.html	
++++ b/src/main/resources/templates/verEmpleados.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+Index: src/main/resources/templates/verMovimientos.html
+===================================================================
+diff --git a/src/main/resources/templates/verMovimientos.html b/src/main/resources/templates/verMovimientos.html
+--- a/src/main/resources/templates/verMovimientos.html	
++++ b/src/main/resources/templates/verMovimientos.html	
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en" xmlns:th="http://www.thymeleaf.org">
++<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+ <head>
+     <title>Lista de Movimientos - Ciclo3</title>
+     <meta charset="utf-8">

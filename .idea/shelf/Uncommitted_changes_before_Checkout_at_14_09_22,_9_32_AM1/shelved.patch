@@ -1,0 +1,40 @@
+Index: Ciclo3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ciclo3.iml b/Ciclo3.iml
+--- a/Ciclo3.iml	
++++ b/Ciclo3.iml	
+@@ -14,7 +14,9 @@
+       <configuration>
+         <setting name="validation-enabled" value="true" />
+         <setting name="provider-name" value="Hibernate" />
+-        <datasource-mapping />
++        <datasource-mapping>
++          <factory-entry name="entityManagerFactory" />
++        </datasource-mapping>
+         <naming-strategy-map />
+       </configuration>
+     </facet>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	
++++ b/.idea/vcs.xml	
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GitSharedSettings">
++    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
++      <list>
++        <option value="main" />
++      </list>
++    </option>
++  </component>
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="Git" />
+   </component>

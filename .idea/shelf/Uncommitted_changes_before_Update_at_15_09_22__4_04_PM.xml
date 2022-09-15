@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM" date="1663275899941" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 15/09/22, 4:04 PM" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" />
+    <option name="AFTER_PATH" value="target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM/ControllerFull.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/UdeA/Ciclo3/repo/MovimientosRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/com/UdeA/Ciclo3/repo/MovimientosRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM/MovimientosRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/UdeA/Ciclo3/security/SecConfig.class" />
+    <option name="AFTER_PATH" value="target/classes/com/UdeA/Ciclo3/security/SecConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM/SecConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/UdeA/Ciclo3/service/MovimientosService.class" />
+    <option name="AFTER_PATH" value="target/classes/com/UdeA/Ciclo3/service/MovimientosService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_22,_4_04_PM/MovimientosService.class" />
+  </binary>
+</changelist>

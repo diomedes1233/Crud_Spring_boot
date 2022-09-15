@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="se creo el crud crear Empresa">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/Ciclo3Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/Ciclo3Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ciclo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ciclo3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/controller/ControllerFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/security/SecConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/UdeA/Ciclo3/security/SecConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editarMovimiento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verEmpleados.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verEmpleados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/controller/ControllerFull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/UdeA/Ciclo3/modelos/Empleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editarMovimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editarMovimiento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/verEmpleados.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verEmpleados.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +30,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +62,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2DR293jOBXMiO8WvkMN4OjnXDxS" />
   <component name="ProjectLevelVcsManager">
@@ -80,10 +97,18 @@
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
       &quot;postgresql&quot;
+    ],
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.UdeA.Ciclo3.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
@@ -145,6 +170,12 @@
       <workItem from="1663096967974" duration="29000" />
       <workItem from="1663097116432" duration="1342000" />
       <workItem from="1663153551234" duration="3941000" />
+      <workItem from="1663184694160" duration="1962000" />
+      <workItem from="1663187225070" duration="1522000" />
+      <workItem from="1663189514792" duration="3180000" />
+      <workItem from="1663203437558" duration="8644000" />
+      <workItem from="1663238942630" duration="1914000" />
+      <workItem from="1663268976504" duration="5799000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661057454546</created>
@@ -237,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663163235768</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="prueba">
+      <created>1663275872127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663275872127</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +314,8 @@
     <MESSAGE value="version 4 del proyecto" />
     <MESSAGE value="BASIC JDBC AUTHENTICATION" />
     <MESSAGE value="se creo el crud crear Empresa" />
-    <option name="LAST_COMMIT_MESSAGE" value="se creo el crud crear Empresa" />
+    <MESSAGE value="Autenticación por perfiles" />
+    <MESSAGE value="prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
   </component>
 </project>

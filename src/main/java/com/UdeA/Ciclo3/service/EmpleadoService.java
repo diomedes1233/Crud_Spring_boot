@@ -1,7 +1,6 @@
 package com.UdeA.Ciclo3.service;
 
 import com.UdeA.Ciclo3.modelos.Empleado;
-import com.UdeA.Ciclo3.modelos.Empresa;
 import com.UdeA.Ciclo3.repo.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

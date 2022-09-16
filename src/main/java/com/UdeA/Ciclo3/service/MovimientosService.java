@@ -1,6 +1,5 @@
 package com.UdeA.Ciclo3.service;
 
-import com.UdeA.Ciclo3.modelos.Empleado;
 import com.UdeA.Ciclo3.modelos.MovimientoDinero;
 import com.UdeA.Ciclo3.repo.MovimientosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
